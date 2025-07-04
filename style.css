@@ -16,7 +16,7 @@ h1,h2,h3,h4{
 .mainhead{
     display: flex;
     position: fixed;
-    background-color: black;
+    background-color:wheat;    
     width: 100%;
     padding: 10px;
     z-index: 500;
@@ -25,16 +25,16 @@ h1,h2,h3,h4{
     display: flex;
     margin-left: 30px;
     margin-top: 10px;
-    color: white;
+    color: black;
     transition: background 0.3s;
-    border-radius: 9px;
+    border-radius: 15px;
     padding: 1px;
 }
 .headlist1{
     margin-right: 850px;
 }
 .headlist2:hover{
-    background-color: violet;
+    background-color: burlywood;
     color: white;
     border-radius: 8px;
     cursor: pointer;

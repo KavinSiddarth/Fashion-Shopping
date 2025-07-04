@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">  
 </head>
 <style>
     *{
@@ -12,14 +15,13 @@
     padding: 0%;
     box-sizing: border-box;    
     }
-    @media (max-width: 768px) {
-  /* mobile-specific styles */
-}
-
+    body{
+        background-color: burlywood;
+    }
     .head{
         display: flex;
         position: fixed;
-        background-color:darksalmon;
+        background-color:blanchedalmond;
         width: 100%;
         padding: 15px;
     }
@@ -38,15 +40,18 @@
     }
     .return{
         margin-left: 500%;
-        color: aliceblue;
-        width: 70px;
+        color: black;
+        width: 65px;
     }
     .fa-cart-shopping{
         font-size: 30px;
+        color: darkmagenta;
     }
     .return:hover{
-        background-color: darkorchid;
-        border-radius: 5px;
+        background-color: darkmagenta;
+        border-radius: 10px;
+        color: white;
+        transform: translateY(-2px);
     }
     .dressblock1{
         display:inline-block;
@@ -72,6 +77,9 @@
         background-color: blanchedalmond;
         padding: 30px;
         border-radius: 10px;
+    }
+    .coat1:hover{
+        transform: scale(0.90);
     }
     .dressblock3{
         display:inline-block;
@@ -164,7 +172,7 @@
     <div class="head">
         <h1 class="headname">Mega Sale</h1><i class="fa-solid fa-cart-shopping"></i>
         <input type="search" placeholder="Search for products" class="searchbox">
-        <h2 style="color: blueviolet; margin-left: 10px;">Find your perfect look</h2>
+        <h2 style="color: darkmagenta; margin-left: 10px;">Find your perfect look</h2>
         <a href="index.html" style="text-decoration: none;"><h2 class="return">Home</h2></a>
     </div><br><br><br>
     <div class="dressblock1">
@@ -175,14 +183,14 @@
             <i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
             <button class="productbtn">Buy now</button>
         </div>
-         <div class="coat">
+        <div class="coat">
             <img src="image/coat1.jpeg" style="border-radius:10px;">
             <h3>Black Coat Suit</h3>
             <h4>₹800 <span style="text-decoration: line-through;">₹2500</span></h4>
             <i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"></i><br>
             <button class="productbtn">Buy now</button>
         </div>
-         <div class="coat">
+        <div class="coat">
             <img src="image/coat3.jpeg" style="border-radius:10px;height: 265px;">
             <h3>Gray Coat Suit</h3>
             <h4>₹950 <span style="text-decoration: line-through;">₹3000</span></h4>
@@ -273,7 +281,7 @@
     </div>
      <div class="dressblock4">
         <div class="saaree1">
-            <img src="image/ball gown1.webp" style="border-radius:10px; height: 265px;">
+            <img src="image/ball gown.webp" style="border-radius:10px; height: 265px;">
             <h3>Ball Gown</h3>
             <h4>₹750 <span style="text-decoration: line-through;">₹2000</span></h4>
             <i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>
