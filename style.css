@@ -23,18 +23,26 @@ h1,h2,h3,h4{
 }
 .headlist2{
     display: flex;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 10px;
     color: black;
     transition: background 0.3s;
     border-radius: 15px;
     padding: 1px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
 }
 .headlist1{
     margin-right: 850px;
+    color:chocolate;
+    font-family: "Lobster", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .headlist2:hover{
-    background-color: burlywood;
+    background-color: darkmagenta;
     color: white;
     border-radius: 8px;
     cursor: pointer;
@@ -119,11 +127,14 @@ h1,h2,h3,h4{
 }
 .blockhead{
     position: absolute;
-    color: violet;
+    color: darkmagenta;
     margin-left: 45%;
     margin-top: 0px;
     font-size: 30px;
-    
+    font-family: "Lobster", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
 }
 .blockitem1{
     display: flex;
