@@ -6,6 +6,9 @@
 body{
     background-color:blanchedalmond;
 }
+h1,h2,h3,h4{
+    cursor: pointer;
+}
 .mainhead{
     display: flex;
     position: fixed;
@@ -101,26 +104,31 @@ body{
 }
 .block{
     display: flex;
+    position: relative;
     background-color: wheat;
     text-align: center;
     border-radius: 20px;
     width: 95%;
     margin-left: 2.5%;
     margin-top: 30px;
+    padding: 55px;
 }
 .blockhead{
+    position: absolute;
     color: violet;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 45%;
+    margin-top: 0px;
     font-size: 30px;
+    
 }
 .blockitem1{
     display: flex;
     flex-direction: column;
     margin-top: 70px;
     margin-right: 50px;
+    margin-left: 10px;
     padding: 10px;
-    background-color: rosybrown;
+    background-color: burlywood;
     border-radius: 15px;
 }
 .blockitem1:hover{
@@ -128,4 +136,22 @@ body{
 }
 .blockimg{
     border-radius: 20px;
+}
+.megasale-btn{
+    position: absolute;
+    bottom: 2%; 
+    left: 50%; 
+    padding: 5px; 
+    font-size: 14px; 
+    background-color:darksalmon; 
+    color: aliceblue; 
+    border: none; 
+    border-radius: 5px;
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes color{
+    from{transform: scale(1.25);}
+    to{transform: scale(1.40);}
 }
