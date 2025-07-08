@@ -170,3 +170,12 @@ h1,h2,h3,h4{
     from{transform: scale(1.25);}
     to{transform: scale(1.40);}
 }
+.in{
+     animation-name: color1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes color1{
+    from{transform: scale(1.1);}
+    to{transform: scale(0.9);}
+}
